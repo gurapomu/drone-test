@@ -4,7 +4,7 @@ name: test
 
 steps:
 - name: test
-  image: plugins/ansible
+  image: ubuntu:18.04
   commands:
   - echo "hello world!"
   when:
